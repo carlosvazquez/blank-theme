@@ -1,0 +1,460 @@
+{
+  "info": {
+    "logo": "screenshot.png",
+    "header": "japi Theme",
+    "content": [
+      "Tema 'Japi' no puede ser instalado. Cualquier duda o comentario [contacto](mailto:themes-support@shoperti.com)."
+    ]
+  },
+  "categories": [
+    {
+      "name": "Colores",
+      "icon": "colors",
+      "sections": [
+        {
+          "header": "Colores Generales",
+          "settings": [
+            {
+              "type": "color",
+              "id": "brand_main_color",
+              "label": "Color destacado",
+              "default": "#f15a29",
+              "info": "Usualmente es el color principal de la marca."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Encabezado",
+      "sections": [
+        {
+          "header": "Logo y Favicon",
+          "settings": [
+            {
+              "type": "checkbox",
+              "id": "use_logo",
+              "label": "Usar logo personalizado"
+            },
+            {
+              "type": "image",
+              "id": "nav_logo",
+              "label": "Seleccionar Logo",
+              "info": "120px de ancho recomendado"
+            },
+            {
+              "type": "checkbox",
+              "id": "use_favicon",
+              "label": "Usar favicon personalizado"
+            },
+            {
+              "type": "image",
+              "id": "favicon.png",
+              "max-width": 32,
+              "max-height": 32,
+              "label": "Seleccionar Favicon",
+              "info": "32 x 32px requerido"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pie de página",
+      "icon": "footer",
+      "sections": [
+        {
+          "header": "Datos de contacto",
+          "settings": [
+            {
+              "type": "checkbox",
+              "id": "footer_display_contact_data",
+              "label": "Mostrar datos",
+              "default": true
+            },
+            {
+              "type": "text",
+              "id": "footer_contact_data",
+              "label": "Contacto y/o ubicación",
+              "default": "CALLE 000, COLONIA, DELEGACION/MUNICIPIO, MÉXICO, ESTADO, C.P. 00000 TELÉFONO (+52) 000 000000 - (+52) 000 000000 INFO@MIEMPRESA.COM"
+            },
+            {
+              "type": "checkbox",
+              "id": "footer_display_social",
+              "label": "Mostrar redes sociales",
+              "default": true
+            },
+            {
+              "type": "checkbox",
+              "id": "footer_display_payment_methods",
+              "label": "Mostrar métodos de pago",
+              "default": true
+            }
+          ]
+        },
+        {
+          "header": "Menús del footer",
+          "settings": [
+            {
+              "type": "checkbox",
+              "id": "footer_display_main_menu",
+              "label": "Mostrar",
+              "default": true
+            },
+            {
+              "type": "text",
+              "id": "footer_main_menu_title",
+              "label": "Título del menú",
+              "default": "NAVEGACIÓN"
+            },
+            {
+              "type": "text",
+              "id": "footer_main_menu_name",
+              "label": "identificador del menú",
+              "default": "main"
+            },
+            {
+              "type": "checkbox",
+              "id": "footer_display_second_menu",
+              "label": "Mostrar",
+              "default": true
+            },
+            {
+              "type": "text",
+              "id": "footer_second_menu_title",
+              "label": "Título del menú",
+              "default": "MENÚ"
+            },
+            {
+              "type": "text",
+              "id": "footer_second_menu_name",
+              "label": "identificador del menú",
+              "default": "footer"
+            }
+          ]
+        },
+        {
+          "header": "Íconos de métodos de pago",
+          "settings": [
+            {
+              "type": "checkbox",
+              "id": "accept_visa",
+              "label": "Visa",
+              "default": true
+            },
+            {
+              "type": "checkbox",
+              "id": "accept_mastercard",
+              "label": "Mastercard",
+              "default": true
+            },
+            {
+              "type": "checkbox",
+              "id": "accept_amex",
+              "label": "American Express"
+            },
+            {
+              "type": "checkbox",
+              "id": "accept_paypal",
+              "label": "Paypal",
+              "default": true
+            },
+            {
+              "type": "checkbox",
+              "id": "accept_oxxo",
+              "label": "OXXO"
+            },
+            {
+              "type": "checkbox",
+              "id": "accept_spei",
+              "label": "SPEI"
+            },
+            {
+              "type": "checkbox",
+              "id": "accept_cash",
+              "label": "Efectivo"
+            }
+          ]
+        },
+        {
+          "header": "Aviso de privacidad",
+          "settings": [
+            {
+              "type": "page",
+              "id": "policy_url",
+              "label": "Enlace al aviso de privacidad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Página de Inicio",
+      "icon": "home-page",
+      "sections": [
+        {
+          "header": "Orden de Secciones",
+          "settings": [
+            {
+              "type": "paragraph",
+              "content": "Elige las secciones de tu página de inicio y su posición."
+            },
+            {
+              "type": "select",
+              "id": "frontpage_section_1",
+              "label": "Sección 1",
+              "default": "featured-slider",
+              "options": [
+                {
+                  "value": "none",
+                  "label": "Ningúno"
+                },
+                {
+                  "value": "featured-slider",
+                  "label": "Slider principal"
+                }
+              ]
+            },
+            {
+              "type": "select",
+              "id": "frontpage_section_2",
+              "label": "Sección 2",
+              "default": "featured-collections",
+              "options": [
+                {
+                  "value": "none",
+                  "label": "Ningúno"
+                },
+                {
+                  "value": "featured-slider",
+                  "label": "Slider principal"
+                },
+                {
+                  "value": "featured-collections",
+                  "label": "Colecciones destacadas"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Página de Inicio - Slider",
+      "icon": "home-page",
+      "sections": [
+        {
+          "header": "Slide 1",
+          "settings": [
+            {
+              "type": "checkbox",
+              "id": "slide_1",
+              "label": "Mostrar Slider 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Página de Inicio - Productos",
+      "icon": "home-page",
+      "sections": [
+        {
+          "header": "Productos Destacados",
+          "settings": [
+            {
+              "type": "collection",
+              "id": "featured_products_collection",
+              "label": "Colección de productos destacados",
+              "default": "inicio"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Página de Inicio - Blog",
+      "icon": "home-page",
+      "sections": [
+        {
+          "settings": [
+            {
+              "type": "blog",
+              "id": "featured_blog",
+              "label": "Seleccionar blog"
+            },
+            {
+              "type": "text",
+              "id": "featured_blog_title",
+              "label": "Título de sección"
+            },
+            {
+              "type": "checkbox",
+              "id": "featured_blog_home_thumbnails_enabled",
+              "label": "Mostrar la imagen destacada",
+              "default": true
+            },
+            {
+              "type": "text",
+              "id": "featured_blog_limit",
+              "label": "Cantidad de posts a mostrar",
+              "default": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Contacto",
+      "icon": "contact-page",
+      "sections": [
+        {
+          "header": "Data",
+          "settings": [
+            {
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Carrito",
+      "icon": "cart-page",
+      "sections": [
+        {
+          "settings": [
+            {
+              "type": "text",
+              "id": "cart_title",
+              "label": "Título de la sección de carrito"
+            },
+            {
+              "type": "text",
+              "id": "cart_description",
+              "label": "Descripción de la sección de carrito"
+            },
+            {
+              "type": "text",
+              "id": "cart_btn_buy_text",
+              "label": "Texto de boton comprar",
+              "default": "Prodecer a comprar"
+            },
+            {
+              "type": "text",
+              "id": "cart_btn_more_text",
+              "label": "Texto de boton comprar más",
+              "default": "Comprar más"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Redes Sociales",
+      "icon": "social-media",
+      "sections": [
+        {
+          "header": "Cuentas",
+          "settings": [
+            {
+              "type": "text",
+              "id": "facebook_link",
+              "label": "Facebook",
+              "default": "https://www.facebook.com/ShopertiHQ",
+              "info": "https://www.facebook.com/shoperti"
+            },
+            {
+              "type": "text",
+              "id": "twitter_link",
+              "label": "Twitter",
+              "info": "https://twitter.com/shoperti"
+            },
+            {
+              "type": "text",
+              "id": "google_link",
+              "label": "Google+",
+              "info": "https://plus.google.com/+shoperti"
+            },
+            {
+              "type": "text",
+              "id": "pinterest_link",
+              "label": "Pinterest",
+              "info": "https://www.pinterest.com/shoperti/"
+            },
+            {
+              "type": "text",
+              "id": "instagram_link",
+              "label": "Instagram",
+              "info": "https://instagram.com/shoperti/"
+            },
+            {
+              "type": "text",
+              "id": "youtube_link",
+              "label": "Youtube",
+              "info": "https://www.youtube.com/user/shoperti"
+            },
+            {
+              "type": "text",
+              "id": "vimeo_link",
+              "label": "Vimeo",
+              "info": "https://vimeo.com/shoperti"
+            },
+            {
+              "type": "text",
+              "id": "tumblr_link",
+              "label": "Tumblr",
+              "info": "http://shoperti.tumblr.com/"
+            },
+            {
+              "type": "text",
+              "id": "whatsapp_link",
+              "label": "Whatsapp",
+              "info": "+52 123 456 789"
+            }
+          ]
+        },
+        {
+          "header": "Compartir",
+          "settings": [
+            {
+              "type": "checkbox",
+              "id": "enable_share_products",
+              "label": "Habilitar compartir productos",
+              "default": true
+            },
+            {
+              "type": "checkbox",
+              "id": "enable_share_blog",
+              "label": "Habilitar compartir blog y posts",
+              "default": true
+            },
+            {
+              "type": "checkbox",
+              "id": "share_facebook",
+              "label": "Compartir en Facebook",
+              "default": true
+            },
+            {
+              "type": "checkbox",
+              "id": "share_twitter",
+              "label": "Tuitear en Twitter",
+              "default": true
+            },
+            {
+              "type": "checkbox",
+              "id": "share_pinterest",
+              "label": "Hacer pin en Pinterest",
+              "default": true
+            },
+            {
+              "type": "checkbox",
+              "id": "share_google",
+              "label": "+1 en Google Plus",
+              "default": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

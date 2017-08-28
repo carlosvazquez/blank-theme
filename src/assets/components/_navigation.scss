@@ -1,0 +1,15 @@
+// BEM
+// Block
+// Element
+// Modifier
+.block {
+    /* CSS declarations for `.block` */
+
+    &__element {
+        /* CSS declarations for `.block__element` */
+    }
+
+    &--modifier {
+        /* CSS declarations for `.block--modifier` */
+    }
+}

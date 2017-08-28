@@ -1,0 +1,16 @@
+{
+  "current": "Base",
+  "presets": {
+    "Base": {
+      "brand_main_color": "#86b404",
+      "body_background_color": "#ffffff",
+      "body_font": "Google+Roboto",
+      "body_font_size": "16px",
+      "body_font_weight": "300",
+      "heading_font": "Google+Roboto+Slab",
+      "heading_font_size": "36px",
+      "heading_font_weight": "settings.heading_font_weight ",
+      "headings_color": "#555555"
+    }
+  }
+}
