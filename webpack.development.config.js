@@ -57,10 +57,8 @@ module.exports = {
       jQuery: "jquery"
     }),
     new CopyWebpackPlugin([
-      { from: './src/php_files/index.php', to: 'index.php' },
-      { from: './src/php_files/includes/head.php', to: 'includes/head.php' },
-      { from: './src/php_files/includes/header.php', to: 'includes/header.php' },
-      { from: './src/php_files/includes/footer.php', to: 'includes/footer.php' },
+      { from: './src/php_files/', to: './' },
+      { from: './src/php_files/includes/', to: './includes' },
       { from: './src/images/', to: 'images' },
       { from: './src/assets/', to: 'assets' }
       ],
